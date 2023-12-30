@@ -1,0 +1,24 @@
+<!-- res/drawable/cyberpunk_glow.xml -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <group
+        android:name="group1"
+        android:scaleX="1"
+        android:scaleY="1"
+        android:pivotX="100"
+        android:pivotY="100">
+
+        <path
+            android:name="glow"
+            android:pathData="M100,0C55.03,0 15,40.03 15,85s40.03,85 85,85s85,-40.03 85,-85S144.97,0 100,0z"
+            android:fillColor="#00FF00"
+            android:strokeWidth="0.5"
+            android:strokeColor="#00FF00">
+        </path>
+    </group>
+</vector>

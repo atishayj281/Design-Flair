@@ -1,0 +1,32 @@
+.body{
+    /* background-color: rgb(51, 10, 87); */
+    --tw-bg-opacity: 1;
+    background-color: rgb(23 24 28/var(--tw-bg-opacity));
+    height: 100%;
+}
+.flex-1 {
+    flex: 1 1 0%;
+}
+
+.max-w-xl{
+    max-width: 36rem;
+}
+.mt-12 {
+    margin-top: 3rem;
+}
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+.text-lg{
+    font-size: 1.125rem;
+}
+.divider{
+    height: 1px;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+.font-off-white{
+    color: whitesmoke;
+}
